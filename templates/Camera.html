@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Petri Dish Colony Counter</title>
+</head>
+<body>
+ <div class="row">
+  <div class="column", id="Camera">
+      <h2>Petri Dish Colony Counter</h2>
+        <img src="{{ url_for('video_feed') }}">
+  </div>
+  <div class="column", id="Info">
+      1. Place petri dish under your webcam.<br>
+      2. Press "space" to start the analysis process.<br>
+      The masked image will be shown and the number of regions will be displayed over the image.<br>
+      3. Press "a" to restart the camera feed ready for your next petri dish.
+  </div>
+</div>
+</body>
+</html>
